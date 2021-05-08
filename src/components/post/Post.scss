@@ -1,0 +1,81 @@
+@import '../../globals';
+
+.post-container {
+    font-family: 'Libre Baskerville', serif;
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    margin-top: 185px;
+    height: 100%;
+    border: 1px solid $base-color;
+    // background-color: $quadrary-color;
+    opacity: 1;
+    z-index: 2;
+}
+
+.post-header {
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    width: 100%;
+    min-height: 14rem;
+    height: auto;
+    
+    height: 15rem;
+    border: 1px solid $base-color;
+    // background-color: $quadrary-color;
+    opacity: 1;
+    z-index: 1;
+}
+
+.post-title {
+    margin-top: 1rem;
+    position: relative;
+    text-align: left;
+    margin-left: 15px;
+    font-size: $post-primary;
+    display: table-cell;
+    float: left;
+
+}
+
+.post-awards {
+    margin-top: 1.5rem;
+    position: relative;
+    display: table-cell;
+    margin-left: 15px;
+    float: left;
+}
+
+.post-award {
+    margin-right: 2px;
+}
+
+.post-header-topLine {
+    position: relative;
+    top: 0rem;
+}
+
+.post-header-bottomLine {
+    position: absolute;
+    left: 16px;
+    top: 9rem;
+}
+
+.post-author {
+    margin-top: 4rem;
+    position: relative;
+    text-align: left;
+    margin-left: 15px;
+    font-size: $post-primary;
+    display: table-cell;
+}
+
+.post-subreddit {
+    margin-top: 4rem;
+    position: relative;
+    display: table-cell;
+    margin-left: 15px;
+}
+
+
+

@@ -1,0 +1,29 @@
+@import '../../globals';
+
+.topHeader-container {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    height: 10rem;
+    border: 1px solid $base-color;
+    background-color: $tertiary-color;
+    opacity: 1;
+    z-index: 1;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.topHeader-signUp {
+    display: table-cell;
+    padding: 5px;
+}
+
+.topHeader-login {
+    display: table-cell;
+}
+
+.topHeader-authLinks {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}

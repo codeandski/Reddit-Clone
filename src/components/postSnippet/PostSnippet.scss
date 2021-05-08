@@ -1,0 +1,35 @@
+@import "./../../globals";
+
+.postSnippet-container {
+  height: 5rem;
+  margin-bottom: 1rem;
+  border: 2px solid $base-color;
+  font-family: 'Libre Baskerville', serif;
+  overflow: hidden;
+}
+
+.postSnippet-title {
+  position: relative;
+  cursor: pointer;
+   &:hover {
+    color: blue;
+  }
+  // text-align: left;
+}
+
+.postSnippet-previewImage {
+  float: left;
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.postSnippet-subreddit {
+    display: inline;
+    margin: 5px;
+}
+
+.postSnippet-author {
+    display: inline;
+    margin: 5px;
+}

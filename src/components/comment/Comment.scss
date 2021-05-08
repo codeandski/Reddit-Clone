@@ -1,0 +1,13 @@
+@import '../../globals';
+
+.post-comment-container {
+    border: 1px solid $base-color;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    // padding: 0px 5px 0px 5px;
+}
+
+.post-comment-text {
+    padding: 5px;
+}
